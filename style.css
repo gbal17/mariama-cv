@@ -358,3 +358,10 @@ section + section {
     padding-left: 0; /* Optional: remove indent */
 }
 
+.skills h2 {
+    text-align: center;
+}
+
+.skills ul {
+    font-size: 0.9em;
+}
