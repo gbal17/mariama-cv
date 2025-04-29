@@ -386,3 +386,20 @@ section + section {
 .experience li {
     margin-bottom: 3px;
 }
+
+/* Reduce space after section title */
+.experience h2 {
+    margin-bottom: 6px; /* Default is usually 12-20px */
+}
+
+/* Reduce spacing in bullet points */
+.experience ul {
+    margin-top: 4px;
+    margin-bottom: 10px;
+    line-height: 1.2; /* Tighter lines */
+    padding-left: 18px; /* Slight left indent */
+}
+
+.experience li {
+    margin-bottom: 2px; /* Less space between bullets */
+}
